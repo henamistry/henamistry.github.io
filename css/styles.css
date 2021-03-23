@@ -1,0 +1,125 @@
+.top {
+    margin: 16px 16px;
+    padding:8px 16px;
+    align-items: flex-start;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    float:left;
+    padding: 8px;
+    margin: 8px 8px;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pages {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin: 8px 8px;
+    padding: 8px;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+  }
+
+.pages a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+}
+
+.pages a:hover{
+    background-color:  rgb(168, 168, 168);
+    text-decoration: underline;
+}
+
+.linkedin {
+    color: rgb(55, 0, 255);
+    padding: 8px;
+}
+
+body {
+    background-color: rgb(192, 217, 250);
+}
+
+.myphoto img{
+    display: block;
+    margin: auto auto;
+    width: 300px;
+    padding-top: 80px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  /* Float three columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 50px;
+ }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    transition: 0.3s;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: 280px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.cardpic {
+    height: 250px;
+    margin: auto auto;
+
+}
+
+h2 {
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+}
